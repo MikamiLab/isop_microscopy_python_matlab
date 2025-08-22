@@ -81,7 +81,7 @@
 
 ---
 
-## Posture & Behavior Analysis (Spin Microscope)
+## Posture & Behavior Analysis (Spinning-Disk Confocal Microscopy)
 - **Spin/test20240710_skeletonize2.m**  
   - Extract worm centerline (posture) from brightfield images.  
   - Used in: *Fig. 2d and Supplementary Figure 3a, 3b, 3c and 3d*
@@ -89,6 +89,38 @@
 - **Spin/test20240711_posture_combination.m**  
   - Convert posture into angle series, analyze and visualize dynamics.  
   - Used in: *Fig. 2d and Supplementary Figure 3a, 3b and 3d*
+
+
+---
+
+## Supplementary Video Processing
+- **Video/3Dimage_bleach_correct_v2.ipynb**  
+  - Apply bleach correction to images.  
+  - Used in: *Supplementary Video 2, 3, and 4*
+
+- **Video/Boundaries_Frames_ScaleBar_MP4.ipynb**  
+  - Generate orthogonal-view worm videos with boundaries, scale bar, and padding.  
+  - Used in: *Supplementary Video 2 and 3*
+
+- **Video/Merge_FL_BL_newTimestamp_v2.ipynb**  
+  - Merge fluorescence and brightfield videos, align timestamps, and add scale bar.  
+  - Used in: *Supplementary Video 2*
+
+- **Video/Worm2-4_merge.ipynb**  
+  - Integrate Worm2–4 videos with scale bars.  
+  - Used in: *Supplementary Video 3*
+
+- **Video/Video4_maker.ipynb**  
+  - Integrate ISOP (worm1) and spinning-disk confocal microscopy videos, and add scale bars.  
+  - Used in: *Supplementary Video 4*
+
+- **Video/video5_new_layout_centered.ipynb**  
+  - Merge fluorescence and brightfield videos, align timestamps, and add scale bar.
+  - Used in: *Supplementary Video 5*.
+
+- **Video/movie8.ipynb**  
+  - Process and output annotated movie.  
+  - Used in: *Supplementary Video 8*
 
 ---
 
@@ -121,34 +153,3 @@
 - **Other_Codes/signal_plots_v2.ipynb**  
   - Create heatmaps of ratio signals.  
   - Used in: *Fig. 2c and Extended Data Fig. 3c and 4b*
-
----
-
-## Video Processing
-- **Video/3Dimage_bleach_correct_v2.ipynb**  
-  - Apply bleach correction to images.  
-  - Used in: *Supplementary Video 2, 3, and 4*
-
-- **Video/Boundaries_Frames_ScaleBar_MP4.ipynb**  
-  - Generate orthogonal-view worm videos with boundaries, scale bar, and padding.  
-  - Used in: *Supplementary Video 2 and 3*
-
-- **Video/Merge_FL_BL_newTimestamp_v2.ipynb**  
-  - Merge fluorescence and brightfield videos, align timestamps, and add scale bar.  
-  - Used in: *Supplementary Video 2*
-
-- **Video/Worm2-4_merge.ipynb**  
-  - Integrate Worm2–4 videos with scale bars.  
-  - Used in: *Supplementary Video 3*
-
-- **Video/Video4_maker.ipynb**  
-  - Integrate ISOP (worm1) and spinning-disk confocal microscopy videos, and add scale bars.  
-  - Used in: *Supplementary Video 4*
-
-- **Video/video5_new_layout_centered.ipynb**  
-  - Merge fluorescence and brightfield videos, align timestamps, and add scale bar.
-  - Used in: *Supplementary Video 5*.
-
-- **Video/movie8.ipynb**  
-  - Process and output annotated movie.  
-  - Used in: *Supplementary Video 8*
