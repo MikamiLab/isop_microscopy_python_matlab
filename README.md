@@ -1,8 +1,6 @@
-# High-speed volumetric imaging of complex biological dynamics with image scanning light-sheet microscopy
+High-speed volumetric imaging of complex biological dynamics with image scanning light-sheet microscopy
 
 # Repository Contents
-
-## Image Processing & Bleach Correction
 
 ## Velocity Analysis
 - **velocity_timetrace_spin.ipynb**  
