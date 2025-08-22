@@ -1,6 +1,10 @@
 # High-speed volumetric imaging of complex biological dynamics with image scanning light-sheet microscopy
 
+---
+
 # Repository Contents
+
+---
 
 ## Velocity Analysis
 - **velocity_timetrace_spin.ipynb**  
@@ -23,9 +27,7 @@
   - Calculate velocity profile from tracking stage log file.  
   - Used in: *SFig2*
 
-## Video Generation
-
-
+---
 
 ## Stage Control
 - **tracking_stage/main10.py**  
