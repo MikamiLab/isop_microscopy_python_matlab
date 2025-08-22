@@ -29,7 +29,7 @@
 
 ---
 
-## Stage Control
+## Stage Tracking Control
 - **tracking_stage/main10.py**  
   - Main code to control automated stage tracking system.
 
@@ -38,18 +38,18 @@
 
 ---
 
-## HDF5 Data Conversion
+## HDF5 Data Conversion and Visualization
 - **HDF5/Transform_binary_to_hdf5.ipynb**  
   - Read custom binary microscopy data and transform into HDF5 format (metadata + compression).  
-  - Used in: *Fig. 2a, 3a, 3b, 3d, 4a and 4d, Extended Data Fig. 3a, and Supplementary Video 2, 3, 4 and 5*
+  - Used in: *Fig. 2a, 3a, 3b, 3d, 4a, and 4d; Extended Data Fig. 3a; Supplementary Video 2-5*
 
 - **HDF5/binary2hdf5.py**  
   - Functions to convert single binary microscopy files into HDF5 and read volumes at specific time points.  
-  - Used in: *Fig. 2a, 3a, 3b, 3d, 4a and 4d, Extended Data Fig. 3a, and Supplementary Video 2, 3, 4 and 5*
+  - Used in: *Fig. 2a, 3a, 3b, 3d, 4a, and 4d; Extended Data Fig. 3a; Supplementary Video 2-5*
 
 - **HDF5/Transform_HDF5_to_tiff.ipynb**  
   - Convert HDF5 file into TIFF file.  
-  - Used in: *Fig. 2a, 3a, 3b, 3d, 4a and 4d, Extended Data Fig. 3a, and Supplementary Video 2, 3, 4 and 5*
+  - Used in: *Fig. 2a, 3a, 3b, 3d, 4a, and 4d; Extended Data Fig. 3a; Supplementary Video 2-5*
 
 - **HDF5/Transform_tiff_to_hdf5.ipynb**  
   - Convert TIFF file into HDF5 file.  
@@ -57,7 +57,7 @@
 
 - **HDF5/making_orthogonal_view_fluoimages_labelimages.ipynb**  
   - Create orthogonal view images combining fluorescence and label images.  
-  - Used in: *Fig. 2a, 2b, 3a, 3b and 3d, Extended Data Fig. 3a and 3b, Supplementary Figure 3a, 3b and 3d, and Supplementary Video 2, 3, 4 and 5*
+  - Used in: *Fig. 2a, 2b, 3a, 3b and 3d; Extended Data Fig. 3a and 3b; Supplementary Figure 3a, 3b, and 3d; Supplementary Video 2-5*
 
 ---
 
@@ -65,11 +65,11 @@
 - **Chlamydomonas_3DU16/3DU16_v3.py**  
   - Tracking algorithms for Chlamydomonas data.  
   - Create trajectory images.  
-  - Used in: *Fig. 4a and Extended Data Fig. 7*
+  - Used in: *Fig. 4a; Extended Data Fig. 7*
 
 - **stardist_notebook/Extract_calcium_signal-v3-allbrightness.ipynb**  
   - Extract brightness values from ROIs.  
-  - Used in: *Fig. 2c and 3c, and Extended Data Fig. 3c and 4b*
+  - Used in: *Fig. 2c and 3c; Extended Data Fig. 3c and 4b*
 
 - **stardist_notebook/Calculate_label_movement.ipynb**  
   - Calculate 3D movement distance of ROIs.  
@@ -84,11 +84,11 @@
 ## Posture & Behavior Analysis
 - **Spin/test20240710_skeletonize2.m**  
   - Extract worm centerline (posture) from brightfield images.  
-  - Used in: *Fig. 2d and Supplementary Figure 3a, 3b, 3c and 3d*
+  - Used in: *Fig. 2d; Supplementary Figure 3a, 3b, 3c, and 3d*
 
 - **Spin/test20240711_posture_combination.m**  
   - Convert posture into angle series, analyze and visualize dynamics.  
-  - Used in: *Fig. 2d and Supplementary Figure 3a, 3b and 3d*
+  - Used in: *Fig. 2d; Supplementary Figure 3a, 3b, and 3d*
 
 
 ---
@@ -96,7 +96,7 @@
 ## Processing Supplementary Video
 - **Video/3Dimage_bleach_correct_v2.ipynb**  
   - Apply bleach correction to images.  
-  - Used in: *Supplementary Video 2, 3, and 4*
+  - Used in: *Supplementary Video 2-4*
 
 - **Video/Boundaries_Frames_ScaleBar_MP4.ipynb**  
   - Generate orthogonal-view worm videos with boundaries, scale bar, and padding.  
@@ -116,7 +116,7 @@
 
 - **Video/video5_new_layout_centered.ipynb**  
   - Merge fluorescence and brightfield videos, align timestamps, and add scale bar.
-  - Used in: *Supplementary Video 5*.
+  - Used in: *Supplementary Video 5*
 
 - **Video/movie8.ipynb**  
   - Process and output annotated movie.  
@@ -127,7 +127,7 @@
 ## Other Analyses
 - **Other_Codes/Behavior5_waveform.ipynb**  
   - Visualize waveform patterns of Behavior5 and neural signals.  
-  - Used in: *Fig. 2d and Supplementary Figure 3c and 3d*
+  - Used in: *Fig. 2d; Supplementary Figure 3c and 3d*
 
 - **Other_Codes/Motif#5_timeseries_head_bends_marker.ipynb**  
   - Plot neural motifs aligned with head-bend markers.  
@@ -148,8 +148,8 @@
 
 - **Other_Codes/ColorBar_BehaviorType.ipynb**  
   - Plot behavioral time series with fixed color bar.  
-  - Used in: *Fig. 2c and Extended Data Fig. 3c and 4b*
+  - Used in: *Fig. 2c; Extended Data Fig. 3c and 4b*
 
 - **Other_Codes/signal_plots_v2.ipynb**  
   - Create heatmaps of ratio signals.  
-  - Used in: *Fig. 2c and Extended Data Fig. 3c and 4b*
+  - Used in: *Fig. 2c; Extended Data Fig. 3c and 4b*
