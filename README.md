@@ -81,7 +81,7 @@
 
 ---
 
-## Posture & Behavior Analysis (Spinning-Disk Confocal Microscopy)
+## Posture & Behavior Analysis
 - **Spin/test20240710_skeletonize2.m**  
   - Extract worm centerline (posture) from brightfield images.  
   - Used in: *Fig. 2d and Supplementary Figure 3a, 3b, 3c and 3d*
