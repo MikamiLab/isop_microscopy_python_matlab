@@ -93,7 +93,7 @@
 
 ---
 
-## Supplementary Video Processing
+## Processing Supplementary Video
 - **Video/3Dimage_bleach_correct_v2.ipynb**  
   - Apply bleach correction to images.  
   - Used in: *Supplementary Video 2, 3, and 4*
