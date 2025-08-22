@@ -7,22 +7,22 @@
 ---
 
 ## Velocity Analysis
-- **velocity_timetrace_spin.ipynb**  
+- **velocity_profile/velocity_timetrace_spin.ipynb**  
   - For *Spinning Confocal Microscope*.  
   - Calculate velocity profile from tracking stage log file.  
   - Used in: *Ext5ab*
 
-- **velocity_timetrace_tardigrade.ipynb**  
+- **velocity_profile/velocity_timetrace_tardigrade.ipynb**  
   - For *ISOP Microscope*.  
   - Calculate velocity profile from tracking stage log file.  
   - Used in: *Ext6*
 
-- **velocity_timetrace_chlamydomonas.ipynb**  
+- **velocity_profile/velocity_timetrace_chlamydomonas.ipynb**  
   - For *ISOP Microscope*.  
   - Calculate velocity profile.  
   - Used in: *Fig4bc*
 
-- **velocity_timetrace_celegans.ipynb**  
+- **velocity_profile/velocity_timetrace_celegans.ipynb**  
   - For *ISOP Microscope*.  
   - Calculate velocity profile from tracking stage log file.  
   - Used in: *SFig2*
