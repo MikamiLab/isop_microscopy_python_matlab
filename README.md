@@ -8,7 +8,7 @@
 
 ## Velocity Analysis
 - **velocity_profile/velocity_timetrace_spin.ipynb**  
-  - For *Spinning Confocal Microscope*.  
+  - For *Spinning-Disk Confocal Microscope*.  
   - Calculate velocity profile from tracking stage log file.  
   - Used in: *Extended Data Fig. 5a and 5b*
 
