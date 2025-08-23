@@ -153,3 +153,7 @@
 - **Other_Codes/signal_plots_v2.ipynb**  
   - Create heatmaps of ratio signals.  
   - Used in: *Fig. 2c; Extended Data Fig. 3c and 4b*
+ 
+- **Other_Codes/SGfilter-PhothobleachCorrection_v2.ipynb**  
+  - Perform Savitzky–Golay filtering and double-exponential photobleaching correction on tdTomato and GCaMP6f fluorescence signals, while preserving original NaN gaps by temporarily interpolating them and then restoring the missing values after processing.  
+  - Used in: *Fig. 2c; Extended Data Fig. 3c and 4b*
