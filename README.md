@@ -125,6 +125,10 @@
 ---
 
 ## Other Analyses
+- **Other_Codes/Behavior5_Neuron_plot.ipynb**  
+  - Visualize waveform patterns of Behavior5 and neural signals (Vector format image output).  
+  - Used in: *Fig. 2d;*
+
 - **Other_Codes/Behavior5_waveform.ipynb**  
   - Visualize waveform patterns of Behavior5 and neural signals.  
   - Used in: *Fig. 2d; Supplementary Figure 3c and 3d*
